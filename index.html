@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Virtual Connect 4</title>
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
+<script type="text/javascript" src="js/konnect.js"></script>
+
+
+<body>
+	<h1>Connect Four</h1>
+
+	
+
+<main id="main">
+	<div class="player-intro">
+		<div id="player-one">
+			<span class="player-one-coin"></span><span>Player One</span>
+		</div>
+		<div id="player-two">
+			<span class="player-two-coin"></span><span>Player Two</span>
+		</div>
+	</div>
+  <h1 id="winner"></h1>
+	<button id="initiate-game" type="button">Start Game</button>
+	<table id="game-board">
+      <tr id="row-header">
+        <th rel="0"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="1"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="2"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="3"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="4"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="5"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+        <th rel="6"><div class="slot-hover"></div><div class="slot-btn"></div></th>
+      </tr>
+    
+      <tr id="rowsix">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+    
+      <tr id="rowfive">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+    
+      <tr id="rowfour">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+      <tr id="rowThree">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+      <tr id="rowtwo">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+      <tr id="rowone">
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+        <td><span class="empty-slot"></span></td>
+      </tr>
+
+    
+    </table>
+</main>
+</body>
+</html>
