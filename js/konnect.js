@@ -97,7 +97,9 @@ var connectPlay = { //START Game Methods
 		this.playersTurn = 1;
 		for(var i = 0;i<this.slot.length;i++){
 			this.slot[i].firstChild.setAttribute("class","empty-slot");
-		}},//close newGame()
+		}
+		this.winnerMsg.innerHTML="";
+		},//close newGame()
 
 	startBtn : document.getElementById("initiate-game"),
 	playersTurn:1,

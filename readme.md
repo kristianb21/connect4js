@@ -1,4 +1,4 @@
-Connect 4 in HTML,CSS, and Javascript by Kristian Brito
+Connect 4 in HTML,CSS, and JavaScript by Kristian Brito
 
 Instructions:
 1) Grab a partner to challenge, a nearby colleague will do.
