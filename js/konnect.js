@@ -149,16 +149,19 @@ var connectPlay = { //START Game Methods
 					pOneCount++;
 					pTwoCount=0;
 					if(pOneCount==4){
-						console.log("Player One Wins!");
+						console.log("Player One Wins! By Right Slant.");
 						return true;
 					}
 				} else if (coin==playerTwo){
 					pTwoCount++;
 					pOneCount=0;
 					if(pTwoCount==4){
-						console.log("Player Two Wins!");
+						console.log("Player Two Wins! By Right Slant.");
 						return true;
-				}}
+				}}else{
+					pOneCount=0;
+					pTwoCount=0;
+				}
 				i--;
 				count++;
 			}//close while loop
@@ -197,16 +200,20 @@ var connectPlay = { //START Game Methods
 					pOneCount++;
 					pTwoCount=0;
 					if(pOneCount==4){
-						console.log("Player One Wins!");
+						console.log("Player One Wins! By Left Slant.");
 						return true;
 					}
 				} else if (coin==playerTwo){
 					pTwoCount++;
 					pOneCount=0;
 					if(pTwoCount==4){
-						console.log("Player Two Wins!")	;
+						console.log("Player Two Wins! By Left Slant.")	;
 						return true;
 				}}
+				else {
+					pOneCount=0;
+					pTwoCount=0;
+				}
 				i--;
 				count--;
 			}//close while loop
@@ -227,15 +234,18 @@ var connectPlay = { //START Game Methods
 					pOneCount++;
 					pTwoCount=0;
 				if(pOneCount==4){
-					console.log("Player One Wins!");
+					console.log("Player One Wins! By horizontal rows.");
 					return true;
 				}} else if (coin==playerTwo){
 					pTwoCount++;
 					pOneCount=0;
 				if(pTwoCount==4){
-					console.log("Player Two Wins!");
+					console.log("Player Two Wins! By horizontal rows.");
 					return true;
-				}} 
+				}} else{
+					pOneCount=0;
+					pTwoCount=0;
+				}
 			}
 			rowIndex--;	
 		}//close horizontal check
@@ -252,14 +262,14 @@ var connectPlay = { //START Game Methods
 				pOneCount++;
 				pTwoCount=0;
 				if(pOneCount==4){
-					console.log("Player One Wins!");
+					console.log("Player One Wins! By vertical rows.");
 					return true;
 				}
 			} else if (coin==playerTwo){
 				pTwoCount++;
 				pOneCount=0;
 				if(pTwoCount==4){
-					console.log("Player Two Wins!");
+					console.log("Player Two Wins! By vertical rows.");
 					return true;
 			}} 
 		}//close vertical check
