@@ -1,3 +1,5 @@
+Version 1.0
+
 Connect 4 in HTML,CSS, and JavaScript by Kristian Brito
 
 Instructions:
@@ -5,6 +7,5 @@ Instructions:
 2) Click Start Game
 3) Click on the button above the grid to where you'd like to drop your coin.
 4) First player to connect 4 of their coins in a row(horizontal,vertical, or diagonal) wins!
-
 
 Have Fun!
