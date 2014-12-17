@@ -1,6 +1,5 @@
-Version 1.0
-
-Connect 4 in HTML,CSS, and JavaScript by Kristian Brito
+Version: 1.0 
+Author: Kristian Brito
 
 Instructions:
 1) Grab a partner to challenge, a nearby colleague will do.
