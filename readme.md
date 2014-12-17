@@ -6,4 +6,5 @@ Instructions:
 3) Click on the button above the grid to where you'd like to drop your coin.
 4) First player to connect 4 of their coins in a row(horizontal,vertical, or diagonal) wins!
 
+
 Have Fun!
